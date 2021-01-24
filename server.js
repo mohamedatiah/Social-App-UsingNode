@@ -33,5 +33,5 @@ app.use((req, res, next) => {
 
 
 app.listen(8080,()=>{
-    console.log('App is run onnnn: ' , 8080);
+    console.log('App is run on: ' , 8080);
 })
