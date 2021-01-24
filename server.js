@@ -4,7 +4,8 @@ const postRoute = require('./routes/post');
 const userRoute = require('./routes/user');
 const authMiddleware = require('./middlewares/auth');
 const app = express();
-mongoose.connect('mongodb://localhost:27017/SD',{useNewUrlParser: true, useUnifiedTopology: true});
+const {  MONGODB_URI} = process.env
+mongoose.connect( MONGODB_URI,{useNewUrlParser: true, useUnifiedTopology: true});
 
 app.use(express.json());
 
