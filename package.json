@@ -11,14 +11,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-   
+    "bcryptjs": "^2.4.3",
+    
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.9",
     "no": "0.0.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6","express": "^4.17.1", "mongoose": "^5.11.9" ,
-    "bcryptjs": "^2.4.3",
-    
-    "jsonwebtoken": "^8.5.1"
+    "nodemon": "^2.0.6"
   },
   "engines": {
     	         "node": "14.15.3"
